@@ -43,14 +43,13 @@
   <body>
     <!-- Begin Preloader -->
 
-    <div class="music">
-      <audio src="audio/audio.mp3" id="my_audio" loop="loop"></audio> 
-    </div>
+    <audio src="audio/audio.mp3" autostart="true" controls>
+      <script>alert("Your browser doesn't support the Audio tag!")</script>
+    </audio>
 
     <div class="preloader-wrapper">
       <div class="preloader">
         <img src="image/favicon.png" alt="Flower" />
-        <audio src="audio/audio.mp3" id="my_audio" loop="loop"></audio> 
       </div>
     </div>
     <!-- End Preloader-->
